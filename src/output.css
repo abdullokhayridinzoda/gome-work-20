@@ -206,6 +206,9 @@
   .w-\[200px\] {
     width: 200px;
   }
+  .w-\[250px\] {
+    width: 250px;
+  }
   .w-\[350px\] {
     width: 350px;
   }
@@ -359,6 +362,11 @@
       }
     }
   }
+  .max-mb\:m-auto {
+    @media (width < 510px) {
+      margin: auto;
+    }
+  }
   .max-mb\:block {
     @media (width < 510px) {
       display: block;
@@ -382,6 +390,11 @@
   .max-mb\:flex-col-reverse {
     @media (width < 510px) {
       flex-direction: column-reverse;
+    }
+  }
+  .max-mb\:text-center {
+    @media (width < 510px) {
+      text-align: center;
     }
   }
 }
