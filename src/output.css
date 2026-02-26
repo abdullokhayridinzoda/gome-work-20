@@ -379,6 +379,11 @@
       flex-direction: column;
     }
   }
+  .max-mb\:flex-col-reverse {
+    @media (width < 510px) {
+      flex-direction: column-reverse;
+    }
+  }
 }
 @property --tw-border-style {
   syntax: "*";
